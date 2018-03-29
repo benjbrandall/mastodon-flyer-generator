@@ -1,0 +1,91 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header {
+  background: black;
+  margin-bottom: 40px;
+  padding: 30px 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.header img {
+  width: 90px;
+  margin: -10px 10px 0 0;
+}
+
+.header h1 {
+  margin: 0;
+  display: inline-block;
+}
+
+.meme {
+  position: relative;
+}
+
+.top-caption,
+.bottom-caption,
+.middle-caption{
+  font-family: Helvetica, sans-serif;
+  color: #fff;
+  text-shadow: #666 0px 0px 6px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 35px;
+}
+
+.top-caption {
+  top: 30px;
+  left: 15px;
+  right: 15px;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.middle-caption {
+  
+  bottom: 300px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+  
+}
+
+.bottom-caption {
+  bottom: 30px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.tool h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.tool form label {
+  font-size: 18px;
+  margin-bottom: 10px;
+
+}
+
+.tool input {
+  font-size: 16px;
+  border-radius: 0;
+  border: 0;
+  border-bottom: 5px solid black;
+  box-shadow: none;
+}
+
+input[type="text"]:focus {
+  border: 0;
+  border-bottom: 5px solid black;
+  outline: 0;
+  box-shadow: none;
+}
